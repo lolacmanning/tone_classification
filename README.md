@@ -1,5 +1,5 @@
 # Mandarin Tone Classification
 
-## ABSTRACT
+# Abstract
 
 Mandarin Tone Classification NLP Final project
