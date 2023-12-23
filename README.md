@@ -76,8 +76,12 @@ The research, driven by the goal of enhancing tonal language acquisition, has de
 # References
 
 [1]Alsobhani, Ayad et al 2021 J. Phys.: Conf. Ser. 1973 012166 
+
 [2]Burke, Taylor,  Learning Tones, (2020), GitHub repository, https://github.com/tayburke/Learning-Tones/blob/master/LearningTones.ipynb 
+
 [3]Catherine Ryu, Mandarin Tone Perception & Production Team, and Michigan State University Libraries. Tone Perfect: Multimodal Database for Mandarin Chinese. Accessed 1 January 2022. https://tone.lib.msu.edu/ 
+
 [4]Kiran, U. (2023, August 14). MFCC technique for speech recognition. Analytics Vidhya. https://www.analyticsvidhya.com/blog/2021/06/mfcc-technique-for-speech-recognition/ 
+
 [5]Mansour, A., & Lachiri, Z. (2017). SVM based emotional speaker recognition using MFCC-SDC features. International Journal of Advanced Computer Science and Applications, 8(4). https://doi.org/10.14569/ijacsa.2017.080471
 
