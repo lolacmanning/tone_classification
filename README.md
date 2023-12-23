@@ -23,10 +23,25 @@ This project used the Tone Perfect Data Set, generously provided by Michigan Sta
 Visualizations:
 
 Following the data importation into the project notebook, visualizations were executed using all four tones, utilizing the first male voice and the 'ma' sound as exemplars. The ensuing visual representations are presented below:
+First Tone
 ![Visualization 1 MFCC #1](visualizations/First%20Tone%20-%20MFCC%20%231%20Visualization.png)
 ![Visualization 1 MFCC #2](visualizations/First%20Tone%20-%20MFCC%20%232%20Visualization.png)
+![Visualization 1 Waveform](visualizations/First%20Tone%20-%20Waveform%20Visualization.png)
 
+Second Tone
+![Visualization 2 MFCC #1](visualizations/Second%20Tone%20-%20MFCC%20%231%20Visualization.png)
+![Visualization 2 MFCC #2](visualizations/Second%20Tone%20-%20MFCC%20%232%20Visualization.png)
+![Visualization 2 Waveform](visualizations/Second%20Tone%20-%20Waveform%20Visualization.png)
 
+Third Tone
+![Visualization 3 MFCC #1](visualizations/Third%20Tone%20-%20MFCC%20%231%20Visualization.png)
+![Visualization 3 MFCC #2](visualizations/Third%20Tone%20-%20MFCC%20%232%20Visualization.png)
+![Visualization 3 Waveform](visualizations/Third%20Tone%20-%20Waveform%20Visualization.png)
+
+Fourth Tone
+![Visualization 4 MFCC #1](visualizations/Fourth%20Tone%20-%20MFCC%20%231%20Visualization.png)
+![Visualization 4 MFCC #2](visualizations/Fourth%20Tone%20-%20MFCC%20%232%20Visualization.png)
+![Visualization 4 Waveform](visualizations/Fourth%20Tone%20-%20Waveform%20Visualization.png)
 
 
 
