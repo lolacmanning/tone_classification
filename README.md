@@ -96,3 +96,9 @@ The research, driven by the goal of enhancing tonal language acquisition, has de
 
 [7]Yan J, Meng Q, Tian L, Wang X, Liu J, Li M, Zeng M, Xu H. A Mandarin Tone Recognition Algorithm Based on Random Forest and Feature Fusion †. Mathematics. 2023; 11(8):1879. https://doi.org/10.3390/math11081879
 
+# Appendix
+Tone Perfect Data Base Extra Information
+The audio recordings in the Tone Perfect database are related to the following studies oriented around human perception of tone in language, particularly in Mandarin, conducted by Catherine Ryu of Michigan State University’s Department of Linguistics and Languages.
+
+A Tone Perfect Story: How to Develop an Open Access Mandarin Chinese Audio Database as a Collaborative Digital Humanities Project: https://ideah.pubpub.org/pub/hh90jpsu/release/5
+
