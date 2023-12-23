@@ -13,7 +13,14 @@ Mandarin Chinese, a tonal language spoken predominantly in China, Taiwan, and Si
 Presently, the traditional approach to tone acquisition relies heavily on memorization and in-class practice. However, these methods often fall short of cultivating fluent proficiency in tones. The crux of this project lies in proposing a solution to bridge this gap by introducing consistent correction mechanisms during at-home practice sessions. This innovation aims to expedite and enhance the accuracy of Mandarin tone acquisition, thereby offering learners a more efficient pathway to fluency.
 Amidst the burgeoning field of language acquisition technology, this project contributes to the discourse by addressing a crucial aspect of Mandarin learning. While not the sole endeavor of its kind, this project strives to elevate the efficacy and precision of existing technologies. The successful development and implementation of an advanced correction mechanism would not only increase access to tonal language learning but also empower learners to achieve greater accuracy in a shorter time frame. As I delve into this project, I anticipate contributing to the evolving landscape of language acquisition technologies and fostering more accessible pathways to proficiency in tonal languages.
 
-# LITERATURE REVIEW!!!!!!
+# Literature Review
+
+The 2023 research conducted by Yan et al. explores recent advancements in Mandarin tone recognition, critically evaluating state-of-the-art methods such as ToneNet and CNN. ToneNet, despite achieving an impressive accuracy of 99.16% on the SCSC database, is highlighted for its dependency on extensive data and complex calculations, rendering it less suitable for deployment on small mobile terminals. Interestingly, the CNN method employed in the study did not consistently outperform the proposed approach. Taking into account operational time and computational complexity, the method presented in this research emerges as the most cost-effective alternative.
+This research makes a significant contribution to the field by introducing a cost-effective and robust Mandarin tone recognition approach. As language learning applications increasingly incorporate technological advancements, the proposed method holds the potential to facilitate more accessible and accurate Mandarin language acquisition. The study underscores the transformative impact that advanced algorithms can have on language education, providing a pathway for practical implementation on learning terminals [7].
+
+The 2016 study conducted by Chen et al. delves into the critical issue of tone perception in languages, with a specific focus on challenging listening conditions, particularly in children with cochlear implants who often face deficiencies in tone development. The primary objective of the study is to establish an automated method for evaluating tone-production accuracy in these children. The proposed method presents a fully automated approach to tone classification for Mandarin Chinese syllables, utilizing convolutional neural networks (CNN). The results of the study showcase significantly higher accuracy, underscoring the effectiveness of the CNN-based approach. In future research endeavors, the authors plan to extend the evaluation to continuous speech, allowing for the inclusion of co-articulation features. These features have demonstrated promise in enhancing accuracy in prior studies. Overall, this work lays a solid foundation for a robust and automated system that holds the potential to significantly benefit the assessment of tone production in hearing-impaired individuals, addressing a pressing need in the field [4].
+
+Both these studies show case that the CNN model has very good attributes, which make it the model I would like to rely on with this research. The first provides a good foundation of what I want to look at, and is from where this technology should build. The second study is interesting as it again uses CNN, which provides me with insight into this model, but has a different focus than this project.
 
 # Methodology/Data Set
 
@@ -50,10 +57,10 @@ Fourth Tone
 ![Visualization 4 Waveform](visualizations/Fourth%20Tone%20-%20Waveform%20Visualization.png)
 
 
-After visualizing the data, the next step involved organizing the dataset by tone and transforming the audio recordings from MP3 format to Mel-Frequency Cepstral Coefficients (MFCC). MFCCs are particularly well-suited for various machine learning tasks, including speech recognition and music analysis, as they effectively capture the spectral characteristics of sound [4].
+After visualizing the data, the next step involved organizing the dataset by tone and transforming the audio recordings from MP3 format to Mel-Frequency Cepstral Coefficients (MFCC). MFCCs are particularly well-suited for various machine learning tasks, including speech recognition and music analysis, as they effectively capture the spectral characteristics of sound [5].
 Subsequently, the data underwent preprocessing to ensure it was ready for analysis. A comprehensive dataset was then constructed to serve as the foundation for training the models.
-The initial model applied to the dataset was Support Vector Machines (SVM), a powerful algorithm known for its efficacy in pattern recognition. SVM utilizes kernel mapping functions to project the input data into a higher-dimensional space, aiming to find the optimal hyperplane for the best separation of classes [5]. The SVM model exhibited impressive performance, consistently achieving an accuracy exceeding 97% when tested on the original dataset.
-The second model employed was a Convolutional Neural Network (CNN), an advanced deep learning method specifically designed for multiclass classification in speech signal recognition [4]. The CNN model proved highly effective, delivering an accuracy surpassing 99%. Given its outstanding performance, this model was selected for further use and subsequently saved for application to the input data.
+The initial model applied to the dataset was Support Vector Machines (SVM), a powerful algorithm known for its efficacy in pattern recognition. SVM utilizes kernel mapping functions to project the input data into a higher-dimensional space, aiming to find the optimal hyperplane for the best separation of classes [6]. The SVM model exhibited impressive performance, consistently achieving an accuracy exceeding 97% when tested on the original dataset.
+The second model employed was a Convolutional Neural Network (CNN), an advanced deep learning method specifically designed for multiclass classification in speech signal recognition [5]. The CNN model proved highly effective, delivering an accuracy surpassing 99%. Given its outstanding performance, this model was selected for further use and subsequently saved for application to the input data.
 
 # Results
 
@@ -81,7 +88,11 @@ The research, driven by the goal of enhancing tonal language acquisition, has de
 
 [3]Catherine Ryu, Mandarin Tone Perception & Production Team, and Michigan State University Libraries. Tone Perfect: Multimodal Database for Mandarin Chinese. Accessed 1 January 2022. https://tone.lib.msu.edu/ 
 
-[4]Kiran, U. (2023, August 14). MFCC technique for speech recognition. Analytics Vidhya. https://www.analyticsvidhya.com/blog/2021/06/mfcc-technique-for-speech-recognition/ 
+[4]Chen, Charles & Bunescu, Razvan & Xu, Li & Liu, Chang. (2016). Tone Classification in Mandarin Chinese Using Convolutional Neural Networks. 10.21437/Interspeech.2016-528. 
 
-[5]Mansour, A., & Lachiri, Z. (2017). SVM based emotional speaker recognition using MFCC-SDC features. International Journal of Advanced Computer Science and Applications, 8(4). https://doi.org/10.14569/ijacsa.2017.080471
+[5]Kiran, U. (2023, August 14). MFCC technique for speech recognition. Analytics Vidhya. https://www.analyticsvidhya.com/blog/2021/06/mfcc-technique-for-speech-recognition/ 
+
+[6]Mansour, A., & Lachiri, Z. (2017). SVM based emotional speaker recognition using MFCC-SDC features. International Journal of Advanced Computer Science and Applications, 8(4). https://doi.org/10.14569/ijacsa.2017.080471
+
+[7]Yan J, Meng Q, Tian L, Wang X, Liu J, Li M, Zeng M, Xu H. A Mandarin Tone Recognition Algorithm Based on Random Forest and Feature Fusion †. Mathematics. 2023; 11(8):1879. https://doi.org/10.3390/math11081879
 
