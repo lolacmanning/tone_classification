@@ -23,7 +23,7 @@ This project used the Tone Perfect Data Set, generously provided by Michigan Sta
 Visualizations:
 
 Following the data importation into the project notebook, visualizations were executed using all four tones, utilizing the first male voice and the 'ma' sound as exemplars. The ensuing visual representations are presented below:
-![Alt Text](<[image-url](https://github.com/lolacmanning/tone_classification/blob/main/First%20Tone%20-%20MFCC%20%231%20Visualization.png)https://github.com/lolacmanning/tone_classification/blob/main/First%20Tone%20-%20MFCC%20%231%20Visualization.png>)
+![Visualization 1 MFCC #1](images/First%20Tone%20-%20MFCC%20%231%20Visualization.png)
 
 
 
